@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="random">New Random</string>
+
+    <string name="randomNumber">100</string>
+    <string name="title_activity_bmi">BMI</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+    <string name="bmi">BMI</string>
+    <string name="weight">Enter weight</string>
+    <string name="length">Enter height</string>
+    <string name="yourBMI">Your BMI</string>
+</resources>
