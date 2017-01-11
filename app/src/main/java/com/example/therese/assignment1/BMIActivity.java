@@ -19,11 +19,17 @@ public class BMIActivity extends AppCompatActivity implements View.OnClickListen
         setContentView(R.layout.activity_bmi);
 
         Button buttonBmi = (Button)findViewById(R.id.buttonBMI);
+        if ((EditText)findViewById(R.id.weight) == null){
+            mBMI.setText("Please enter values");
+        }
         mWeight = (EditText)findViewById(R.id.weight);
         mLength = (EditText)findViewById(R.id.length);
 
-        mBMI = (TextView) findViewById(R.id.showBMI);
-        buttonBmi.setOnClickListener(this);
+
+
+            mBMI = (TextView) findViewById(R.id.showBMI);
+            buttonBmi.setOnClickListener(this);
+
 
 
 
@@ -31,16 +37,17 @@ public class BMIActivity extends AppCompatActivity implements View.OnClickListen
 
     @Override
     public void onClick(View v) {
+
        float weight= Float.parseFloat(mWeight.getText().toString());
         float height =Float.parseFloat(mLength.getText().toString());
         height= height/100;
         float sum = (weight/(height*height));
         switch(v.getId()){
             case R.id.buttonBMI:
-                mBMI.setText(String.valueOf(sum));
+
+                    mBMI.setText(String.valueOf(sum));
+
 
                 break;
-
-
         }
 }}
