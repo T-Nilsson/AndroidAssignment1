@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.therese.assignment1.AddCountry">
+    tools:context="dv606.tn222ei.assignment1.AddCountry">
 
     <EditText
         android:layout_width="wrap_content"

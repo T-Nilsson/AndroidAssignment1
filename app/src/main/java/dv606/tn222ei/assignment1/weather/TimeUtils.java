@@ -3,7 +3,7 @@
  * Created: May w_9, 2010
  * Jonas Lundberg, LnU
  */
-package com.example.therese.assignment1.weather;
+package dv606.tn222ei.assignment1.weather;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

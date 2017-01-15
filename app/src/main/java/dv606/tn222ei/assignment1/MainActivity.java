@@ -1,8 +1,7 @@
-package com.example.therese.assignment1;
+package dv606.tn222ei.assignment1;
 
 import android.app.ListActivity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -10,12 +9,12 @@ import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
-import com.example.therese.assignment1.beerkit.BeerPager;
-import com.example.therese.assignment1.weather.VaxjoWeather;
+import dv606.tn222ei.assignment1.beerkit.BeerPager;
+import dv606.tn222ei.assignment1.weather.VaxjoWeather;
 
 import java.util.ArrayList;
 
-import static com.example.therese.assignment1.R.styleable.View;
+import static dv606.tn222ei.assignment1.R.styleable.View;
 
 public class MainActivity extends ListActivity {
     ArrayList<String> allApps = new ArrayList<String>();

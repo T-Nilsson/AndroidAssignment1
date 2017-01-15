@@ -1,4 +1,4 @@
-package com.example.therese.assignment1.weather;
+package dv606.tn222ei.assignment1.weather;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,7 +8,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.therese.assignment1.R;
+import dv606.tn222ei.assignment1.R;
 
 import java.util.List;
 

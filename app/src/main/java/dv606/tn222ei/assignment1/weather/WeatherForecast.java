@@ -1,4 +1,4 @@
-package com.example.therese.assignment1.weather;
+package dv606.tn222ei.assignment1.weather;
 import java.util.Date;
 
 /**

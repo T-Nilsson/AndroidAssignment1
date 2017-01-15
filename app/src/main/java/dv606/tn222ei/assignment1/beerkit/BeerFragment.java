@@ -1,4 +1,4 @@
-package com.example.therese.assignment1.beerkit;
+package dv606.tn222ei.assignment1.beerkit;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.therese.assignment1.R;
+import dv606.tn222ei.assignment1.R;
 
 /**
  * Created by nikla on 15-Jan-17.

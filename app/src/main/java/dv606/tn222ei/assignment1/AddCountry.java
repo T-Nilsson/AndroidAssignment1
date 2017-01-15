@@ -1,4 +1,4 @@
-package com.example.therese.assignment1;
+package dv606.tn222ei.assignment1;
 
 
 import android.content.Intent;

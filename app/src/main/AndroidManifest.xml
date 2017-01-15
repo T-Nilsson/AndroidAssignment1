@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.therese.assignment1">
+    package="dv606.tn222ei.assignment1">
 
     <uses-permission android:name="android.permission.INTERNET" />
 

@@ -1,11 +1,11 @@
-package com.example.therese.assignment1.beerkit;
+package dv606.tn222ei.assignment1.beerkit;
 
 
 import android.app.Fragment;
 import android.support.v13.app.FragmentPagerAdapter;
 import android.app.FragmentManager;
 
-import com.example.therese.assignment1.R;
+import dv606.tn222ei.assignment1.R;
 
 import java.util.ArrayList;
 

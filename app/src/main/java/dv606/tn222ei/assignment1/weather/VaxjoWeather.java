@@ -1,4 +1,4 @@
-package com.example.therese.assignment1.weather;
+package dv606.tn222ei.assignment1.weather;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
@@ -11,7 +11,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.widget.ListAdapter;
 import android.widget.Toast;
-import com.example.therese.assignment1.R;
+import dv606.tn222ei.assignment1.R;
 
 /**
  * Created by nikla on w_14-Jan-17.

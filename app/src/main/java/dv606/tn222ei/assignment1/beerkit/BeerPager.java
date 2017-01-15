@@ -1,11 +1,11 @@
-package com.example.therese.assignment1.beerkit;
+package dv606.tn222ei.assignment1.beerkit;
 
 import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
-import com.example.therese.assignment1.R;
+import dv606.tn222ei.assignment1.R;
 
 import java.util.ArrayList;
 
