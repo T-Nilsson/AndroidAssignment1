@@ -50,6 +50,7 @@ public class MyCountries extends AppCompatActivity  {
             ListView myListView = (ListView) findViewById(R.id.myListView);
             myListView.setAdapter(myAdapter);
 
+
         }
     }
             @Override

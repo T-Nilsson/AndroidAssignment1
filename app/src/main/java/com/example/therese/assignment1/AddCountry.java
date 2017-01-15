@@ -8,8 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
-
+import android.widget.Toast;
 
 
 public class AddCountry extends AppCompatActivity  {
@@ -25,7 +24,7 @@ public class AddCountry extends AppCompatActivity  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_country);
         Button  buttonAddCountry = (Button)findViewById(R.id. button_addCountry);
-        Button  buttonViewList = (Button)findViewById(R.id. buttonViewList);
+
 
         buttonAddCountry.setOnClickListener(new View.OnClickListener() {
 
@@ -33,6 +32,10 @@ public class AddCountry extends AppCompatActivity  {
     public void onClick(View v) {
                 year = (EditText) findViewById(R.id.text_enterYear);
                 countryName = (EditText) findViewById(R.id.text_enterCountry);
+                if(countryName.getText().toString().trim().length() == 0  || year.getText().toString().trim().length() == 0 ){
+                    Toast.makeText(v.getContext(), "Fill in fields", Toast.LENGTH_LONG).show();
+                    return;}
+
                 oneCountry = (year.getText().toString() + " " + countryName.getText().toString());
 
 
@@ -42,18 +45,6 @@ public class AddCountry extends AppCompatActivity  {
                 finish();
 
             } });
-
-        buttonViewList.setOnClickListener(new View.OnClickListener() {
-
-
-            @Override
-            public void onClick(View b) {
-
-
-                finish(); // Close this activity and return to caller
-
-            } });
-
 
 
 
